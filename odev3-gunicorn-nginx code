@@ -29,6 +29,9 @@ ExecStart=/home/ubuntu/myproject/myprojectenv/bin/gunicorn --workers 3 --bind un
 WantedBy=multi-user.target
 
 
+
+#nginx
+
 server {
     listen 80;
 
